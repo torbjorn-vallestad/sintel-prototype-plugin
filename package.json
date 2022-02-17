@@ -1,0 +1,26 @@
+{
+    "name": "sintel-prototype-plugin",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+        "tsc": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
+        "prepublish": "npm run tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/torbjorn-vallestad/sintel-prototype-plugin.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/torbjorn-vallestad/sintel-prototype-plugin/issues"
+    },
+    "homepage": "https://github.com/torbjorn-vallestad/sintel-prototype-plugin#readme",
+    "devDependencies": {
+        "redux": "^4.1.2",
+        "typescript": "^4.5.5"
+    }
+}
